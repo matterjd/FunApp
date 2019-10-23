@@ -1,0 +1,48 @@
+﻿<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			  x:Class="FunApp.Views.ShapesCarousel">
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Square" FontSize="Medium" HorizontalOptions="Center" />
+            <Image Source="square"
+                   Aspect="AspectFit"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                   />
+            <Label Text="# of sides: 4" FontSize="Small" HorizontalOptions="Center" />
+            <Label Text="Descriptions: In geometry, a square is a regular quadrilateral, which means that it has four equal sides and four equal angles (90-degree angles, or (100-gradian angles or right angles). It can also be defined as a rectangle in which two adjacent sides have equal length."
+                   HeightRequest="150"
+                   FontSize="Small" HorizontalOptions="Center" />
+
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Triangle" FontSize="Medium" HorizontalOptions="Center" />
+            <Image Source="triangle"
+                   Aspect="AspectFit"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                   />
+            <Label Text="# of sides: 3" FontSize="Small" HorizontalOptions="Center" />
+            <Label Text="Descriptions: A triangle is a polygon with three edges and three vertices. It is one of the basic shapes in geometry. A triangle with vertices A, B, and C is denoted . In Euclidean geometry any three points, when non-collinear, determine a unique triangle and simultaneously, a unique plane (i.e. a two-dimensional Euclidean space)."
+                   HeightRequest="150"
+                   FontSize="Small" HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Circle" FontSize="Medium" HorizontalOptions="Center" />
+            <Image Source="circle"
+                   Aspect="AspectFit"
+                   HeightRequest="200"
+                   WidthRequest="200"
+                   />
+            <Label Text="# of sides: 0" FontSize="Small" HorizontalOptions="Center" />
+            <Label Text="Descriptions: A circle is the locus of all points equidistant from a central point. Definitions Related to Circles. arc: a curved line that is part of the circumference of a circle. chord: a line segment within a circle that touches 2 points on the circle. circumference: the distance around the circle."
+                   FontSize="Small"
+                   HeightRequest="150"
+                    HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>
